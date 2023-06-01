@@ -25,7 +25,6 @@ class _MainScreenState extends State<MainScreen> {
       child: Scaffold(
         appBar: PreferredSize(
           preferredSize: Size(screenSize.width, 60),
-          // child: const CustomAppbar(),
           child: Card(
             child: Container(
               height: 70,
